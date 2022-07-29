@@ -1,0 +1,102 @@
+/* Common CSS starts here*/
+
+body h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+    color: #2A1E59;
+}
+body p{
+    font-family: 'Roboto', sans-serif;
+}
+.btn-color{
+    background-color: #2A1E59;
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+.price_color{
+    color: #76C27E;
+}
+/* Common CSS ends here */
+
+/* Top banner starts here */
+#top-banner{
+    background: gray;
+}
+/* Top banner ends here */
+
+/* join section starts here */
+#inquiry{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background: #ffffff;
+    height: 200px;
+    
+}   
+#inquiry .work_inquiry {
+    width: 650px;
+    height: 150px;
+    background: green no-repeat center/cover;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+#inquiry .inquiry_content{
+    display: inline;
+    float: left;
+    margin-right: 200px;
+    color: white;
+    font-size: 30px;
+    font-weight: 400px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+#inquiry .work_inquiry .register {
+    padding-top: 60px;
+    
+}
+
+/* inquiry css ends here */
+/* join section ends here */
+
+
+/* Companies List CSS starts here */
+.company-name{
+    width: 100px;
+}
+/* Companies List CSS ends here */
+
+/* Footer CSS starts here */
+div.social_media ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+div.social_media ul li a {
+    border-radius: 50%;
+    outline: none;
+    text-align: center;
+    border: 1px solid white;
+    background: transparent;
+    color: #2A1E59;
+    transition: all linear .5s;
+}
+div.social_media ul li a:hover{
+    background: #76C27E;
+}
+
+div.social_media ul li a span{
+    font-size: 15px;
+    transition: all linear .5s;
+}
+div.social_media ul li a:hover span{
+    color: #FFFFF4;
+}
+
+/* Footer CSS ends here */
+
+
+/* Media Queries */
+@media (max-width: 668px){
+    #counter .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
