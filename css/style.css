@@ -19,7 +19,7 @@ body p{
 
 /* Top banner starts here */
 #top-banner{
-    background: gray;
+    /* background: gray; */
 }
 /* Top banner ends here */
 
@@ -102,6 +102,9 @@ body p{
 .company-name{
     width: 100px;
 }
+.company-section{
+    display: block;
+}
 /* Companies List CSS ends here */
 
 /* Footer CSS starts here */
@@ -134,10 +137,16 @@ div.social_media ul li a:hover span{
 /* Footer CSS ends here */
 
 
-/* Media Queries */
-@media (max-width: 668px){
-    #counter .row{
-        display: flex;
-        flex-direction: column-reverse;
+/* For Tablet Devices */
+@media only screen and (min-width: 688px) and (max-width: 992px){
+    .company-section{
+        display: none;
+    }
+}
+
+/* For Mobile device */
+@media only screen and (max-width: 688px){
+    .company-section{
+        display: none;
     }
 }
