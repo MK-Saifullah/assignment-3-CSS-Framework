@@ -149,4 +149,8 @@ div.social_media ul li a:hover span{
     .company-section{
         display: none;
     }
+    div.col{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
